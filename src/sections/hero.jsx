@@ -60,7 +60,7 @@ function Hero() {
                             <h1>that Deliver Results</h1>
                         </div>
 
-                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
+                        <p className="text-white-50 md:text-xl relative z-10 p ointer-events-none">
                             Hello! i'm Ryan and i'm starting to learn once
                             again. Hopefully i can make my dream come true ^.^!
                         </p>
