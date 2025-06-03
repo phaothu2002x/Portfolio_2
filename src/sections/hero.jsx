@@ -1,15 +1,15 @@
-import React from "react";
-import { words } from "../constants/index.js";
-import Button from "../components/button.jsx";
-import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
-import AnimatedCounter from "../components/AnimatedCounter.jsx";
+import React from 'react';
+import { words } from '../constants/index.js';
+import Button from '../components/Button.jsx';
+import HeroExperience from '../components/HeroModels/HeroExperience.jsx';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import AnimatedCounter from '../components/AnimatedCounter.jsx';
 
 function Hero() {
     useGSAP(() => {
         gsap.fromTo(
-            ".hero-text h1 ",
+            '.hero-text h1 ',
             {
                 y: 50,
                 opacity: 0,
@@ -19,7 +19,7 @@ function Hero() {
                 opacity: 1,
                 stagger: 0.2,
                 duration: 1,
-                ease: "power2.inOut",
+                ease: 'power2.inOut',
             }
         );
     });
@@ -62,7 +62,7 @@ function Hero() {
 
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                             Hello! i'm Ryan and i'm starting to learn once
-                            again. Hopefully i can make my dream come true ^.^
+                            again. Hopefully i can make my dream come true ^.^!
                         </p>
 
                         <Button

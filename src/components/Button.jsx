@@ -4,7 +4,7 @@ const Button = ({ text, className, id }) => {
             onClick={(e) => {
                 e.preventDefault();
 
-                const target = document.getElementById("counter");
+                const target = document.getElementById('counter');
 
                 if (target && id) {
                     const offset = window.innerHeight * 0.15;
@@ -13,10 +13,10 @@ const Button = ({ text, className, id }) => {
                         window.scrollY -
                         offset;
 
-                    window.scrollTo({ top, behavior: "smooth" });
+                    window.scrollTo({ top, behavior: 'smooth' });
                 }
             }}
-            className={`${className ?? ""} cta-wrapper`}
+            className={`${className ?? ''} cta-wrapper`}
         >
             <div className="cta-button group">
                 <div className="bg-circle" />
